@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Start Page</title>
+        <title>Jogador de Dados</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
@@ -12,16 +12,26 @@
                 
                 <form action="face" method="GET">
                     <div>
-                        <label for="face">Face do Dado</label>
-                        <input id="face" name="face" type="text">
+                        <label for="face">Quantidade de lados</label>
+                        <select id="face" name="face" > 
+                          <option value="4"> quatro </option>  
+                          <option> 5 </option> 
+                          <option> 6 </option> 
+                          <option> 7 </option> 
+                          <option> 8 </option> 
+                          <option> 9 </option> 
+                          <option> 10 </option> 
+                      </select>
                     </div>
-                    
-                    <div>
+                  
+                    <!-- tirando esta parte - é só uma entrada
+                         não precisa
+                    <div>  
                         <label for="faceop">Face Oposta</label>
-                        <input id="faceop" name="face oposta" type="text">
+                        <input id="faceop" name="faceop" type="text">
                     </div>
-
-                    <input type="submit" value="A outra face do dado">
+                    --> 
+                    <input type="submit" value=" Jogar o dado">
                 </form> 
             </section>
         </main>
